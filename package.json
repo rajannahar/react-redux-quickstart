@@ -1,0 +1,30 @@
+{
+  "name": "react-redux-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel ./src/index.html --open"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "react-redux",
+    "redux ducks",
+    "parcel"
+  ],
+  "author": "Rajan Nahar",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-redux": "^7.1.1",
+    "redux": "^4.0.4"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "alias": {
+    "#store": "./src/store"
+  }
+}
